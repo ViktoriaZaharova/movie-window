@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Окно кино</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="status-bar"><img src="img/status-bar.png" alt=""></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <ul class="list-instruments list-social">
+                <li><a href="#" class="active"><img src="img/add.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-video.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-image.png" alt=""></a></li>
+                <li><a href="#"><img src="img/settings.png" alt=""></a></li>
+                <li><a href="#"><img src="img/search.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="section-photo-editor bg-white">
+    <div class="container">
+        <h2>Редактор фото</h2>
+
+        <ul class="list-stages">
+            <li class="active stages-one">1</li>
+            <li class="stages-two">2</li>
+            <li class="stages-three">3</li>
+        </ul>
+    </div>
+
+    <div class="photo-edit__box box-active" id="photo-edit__box-1">
+        <div class="container"><h3>Выбираем шаблон</h3></div>
+
+        <div class="template-wrapper">
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+            <div class="template-box"><img src="img/image1.png" alt=""></div>
+            <div class="template-box"><img src="img/image2.png" alt=""></div>
+            <div class="template-box"><img src="img/image3.png" alt=""></div>
+        </div>
+
+        <div class="container">
+            <div class="button-wrapper">
+                <a href="#" class="btn-grey btn-add">Добавить</a>
+                <a href="#photo-edit__box-2" class="btn-accent btn-choose">Выбрать</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="photo-edit__box" id="photo-edit__box-2">
+        <div class="container">
+
+            <form method="post" class="form-message">
+                <h3>Введите текст 1</h3>
+
+                <label><textarea name="message"></textarea>
+                    <span class="total-symbol">36 символов</span>
+                </label>
+
+                <h3>Введите текст 2</h3>
+
+                <label><textarea name="message"></textarea>
+                    <span class="total-symbol">128 символов</span>
+                </label>
+            </form>
+
+            <div class="button-wrapper">
+                <div class="upload-btn-wrapper">
+                    <button class="btn-grey">Загрузить фото</button>
+                    <input type="file" name="myfile">
+                </div>
+
+                <a href="#photo-edit__box-3" class="btn-accent btn-choose">Дальше</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="photo-edit__box" id="photo-edit__box-3">
+        <div class="container">
+
+            <div class="image-result">
+                <img src="img/image1.png" alt="">
+            </div>
+
+            <div class="button-wrapper">
+                <button class="btn-accent btn-save">Сохранить</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

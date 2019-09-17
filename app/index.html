@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Окно кино</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+	<div class="header-top">
+		<div class="container"><div class="status-bar"><img src="img/status-bar.png" alt=""></div></div>
+	</div>
+	<div class="header-bottom">
+		<div class="container">
+			<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+			<ul class="list-instruments list-social">
+				<li><a href="#" class="active"><img src="img/add.png" alt=""></a></li>
+				<li><a href="#"><img src="img/resize-video.png" alt=""></a></li>
+				<li><a href="#"><img src="img/resize-image.png" alt=""></a></li>
+				<li><a href="#"><img src="img/settings.png" alt=""></a></li>
+				<li><a href="#"><img src="img/search.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<section class="section-public bg-white">
+	<div class="container">
+		<h2>Публикация</h2>
+
+		<form method="post" class="form-public">
+			<h3>Публикация поста</h3>
+
+			<ul class="list-social">
+				<li><a href="#" class="active"><img src="img/vk.png" alt=""></a></li>
+				<li><a href="#"><img src="img/ok.png" alt=""></a></li>
+				<li><a href="#"><img src="img/fb.png" alt=""></a></li>
+				<li><a href="#"><img src="img/youtube.png" alt=""></a></li>
+				<li><a href="#"><img src="img/inst.png" alt=""></a></li>
+				<li><a href="#"><img src="img/telegram.png" alt=""></a></li>
+				<li><a href="#"><img src="img/whatsap.png" alt=""></a></li>
+			</ul>
+
+			<h3>Тема</h3>
+			<label><input type="text" name="theme" placeholder="Введите название темы"></label>
+
+			<h3>Текст поста</h3>
+
+			<label>
+				<textarea name="message" placeholder="Введите текст поста"></textarea>
+				<span class="total-symbol">2500 символов</span>
+			</label>
+			
+			<h3>Добавить к публикации медиа </h3>
+			
+			<ul class="list-add-media list-social">
+				<li><a href="#"><img src="img/video.png" alt=""></a></li>
+				<li><a href="#" class="active"><img src="img/image.png" alt=""></a></li>
+				<li><a href="#"><img src="img/music.png" alt=""></a></li>
+				<li><a href="#"><img src="img/resize-video.png" alt=""></a></li>
+				<li><a href="#"><img src="img/resize-image.png" alt=""></a></li>
+			</ul>
+
+			<div class="file-attachment">
+				<h4>Вложенные файлы</h4>
+
+				<div class="file-attachment__wrapper">
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+					<div class="box-attachment"><img src="img/img-min1.png" alt=""></div>
+				</div>
+			</div>
+
+			<div class="label-wrapper">
+				<label class="radio">
+					<input class="radio-inp" type="radio" name="radio">
+					<span class="radio-custom"></span>
+					<span class="label">Сейчас</span>
+				</label>
+
+				<label class="radio">
+					<input class="radio-inp" type="radio" name="radio">
+					<span class="radio-custom"></span>
+					<span class="label">По расписанию</span>
+				</label>
+
+				<div class="date">
+					<div class="icon"><img src="img/calendar.png" alt=""></div>
+					<div class="text">20:30</div>
+				</div>
+			</div>
+
+			<button class="btn-accent" type="submit">Опубликовать</button>
+		</form>
+	</div>
+</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Окно кино</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="status-bar"><img src="img/status-bar.png" alt=""></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <ul class="list-instruments list-social">
+                <li><a href="#" class="active"><img src="img/add.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-video.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-image.png" alt=""></a></li>
+                <li><a href="#"><img src="img/settings.png" alt=""></a></li>
+                <li><a href="#"><img src="img/search.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="section-instagram bg-white">
+    <div class="container">
+        <h2>Instagram помощник</h2>
+
+        <ul class="list-instruments">
+            <li><a href="#">
+                <span class="icon"><img src="img/user-.png" alt=""></span>
+                <span class="text">Отписатьтся от отписанных</span>
+                <span class="icon-arrow"><img src="img/arrow-right.png" alt=""></span>
+            </a></li>
+
+            <li><a href="#">
+                <span class="icon"><img src="img/user-check.png" alt=""></span>
+                <span class="text">Подписаться на рекомендованных</span>
+                <span class="icon-arrow"><img src="img/arrow-right.png" alt=""></span>
+            </a></li>
+
+            <li><a href="#">
+                <span class="icon"><img src="img/user-check.png" alt=""></span>
+                <span class="text">Лайк подписчикам</span>
+                <span class="icon-arrow"><img src="img/arrow-right.png" alt=""></span>
+            </a></li>
+
+            <li><a href="#">
+                <span class="icon"><img src="img/like.png" alt=""></span>
+                <span class="text">Лайк за лайк</span>
+                <span class="icon-arrow"><img src="img/arrow-right.png" alt=""></span>
+            </a></li>
+        </ul>
+    </div>
+</section>
+
+<div class="section-message bg-white">
+    <div class="container">
+        <h3>100 сообщений подписчикам</h3>
+
+        <form method="post" class="form-message">
+            <label><input type="text" name="hashtag" placeholder="По хештегу группы"></label>
+            <label class="w80">
+                <input type="text" name="name_group" placeholder="По названию группы">
+            </label>
+            <button type="submit" class="btn-arrow"><img src="img/arrow-right.png" alt=""></button>
+        </form>
+    </div>
+</div>
+
+<div class="section-message bg-white">
+    <div class="container">
+        <h3>100 автолайков подписчикам</h3>
+
+        <form method="post" class="form-message">
+            <label><input type="text" name="hashtag" placeholder="По хештегу группы"></label>
+            <label>
+                <input type="text" name="name_group" placeholder="По названию группы">
+            </label>
+            <label class="w80">
+                <input type="text" name="message_text" placeholder="Текст сообщения">
+            </label>
+            <button type="submit" class="btn-arrow"><img src="img/arrow-right.png" alt=""></button>
+        </form>
+    </div>
+</div>
+
+<div class="section-message bg-white">
+    <div class="container">
+        <h3>100 автолайков для хэштега</h3>
+
+        <form method="post" class="form-message">
+            <label class="w80">
+                <input type="text" name="hashtag" placeholder="Введите хэштег">
+            </label>
+            <button type="submit" class="btn-arrow"><img src="img/arrow-right.png" alt=""></button>
+        </form>
+    </div>
+</div>
+
+<div class="section-message bg-white">
+    <div class="container">
+        <h3>100 автоподписок для хэштега</h3>
+
+        <form method="post" class="form-message">
+            <label><input type="text" name="hashtag" placeholder="По хештегу группы"></label>
+            <label class="w80">
+                <input type="text" name="name_group" placeholder="По названию группы">
+            </label>
+            <button type="submit" class="btn-arrow"><img src="img/arrow-right.png" alt=""></button>
+        </form>
+    </div>
+</div>
+
+<div class="section-message bg-white">
+    <div class="container">
+        <h3>Автоматизация</h3>
+
+        <label class="checkbox-slider">
+            <span class="checkbox__text">Отписатьтся от отписанных</span>
+            <input type="checkbox" class="check-input" name="checkbox">
+            <span class="checkbox-anim"></span>
+        </label>
+
+        <label class="checkbox-slider">
+            <span class="checkbox__text">Подписаться на рекомендованных</span>
+            <input type="checkbox" class="check-input" name="checkbox">
+            <span class="checkbox-anim"></span>
+        </label>
+
+        <label class="checkbox-slider">
+            <span class="checkbox__text">Лайк подписчикам</span>
+            <input type="checkbox" class="check-input" name="checkbox">
+            <span class="checkbox-anim"></span>
+        </label>
+
+        <label class="checkbox-slider">
+            <span class="checkbox__text">Лайк за лайк</span>
+            <input type="checkbox" class="check-input" name="checkbox">
+            <span class="checkbox-anim"></span>
+        </label>
+
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

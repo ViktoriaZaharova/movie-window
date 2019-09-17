@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Окно кино</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="status-bar"><img src="img/status-bar.png" alt=""></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <ul class="list-instruments list-social">
+                <li><a href="#" class="active"><img src="img/add.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-video.png" alt=""></a></li>
+                <li><a href="#"><img src="img/resize-image.png" alt=""></a></li>
+                <li><a href="#"><img src="img/settings.png" alt=""></a></li>
+                <li><a href="#"><img src="img/search.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section class="section-search bg-white">
+    <div class="container">
+        <h2>Поиск видео на Svigu.com</h2>
+
+        <form method="post" class="form-search">
+            <label class="label-search"><input type="text" placeholder="Искать по ключевым словам" name="search"></label>
+
+            <div class="label-wrapper">
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Ссылка на плеер</span>
+                </label>
+            </div>
+
+            <div class="label-wrapper">
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Название на рус.</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Название на англ.</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Год</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Страна</span>
+                </label>
+            </div>
+
+            <div class="label-wrapper">
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Описание</span>
+                </label>
+            </div>
+
+            <h4>Рейтинг</h4>
+
+            <div class="label-wrapper">
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">IMDb</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">КиноПоиск</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">SVIGU.com </span>
+                </label>
+            </div>
+
+            <h4>Cортировка</h4>
+
+            <div class="label-wrapper">
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">по алфавиту</span>
+                </label>
+
+                <label class="checkbox">
+                    <input class="checkbox-inp" type="checkbox" name="checkbox">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">по пулярности</span>
+                </label>
+
+            </div>
+
+            <button class="btn-accent" type="submit">Найти видео</button>
+
+        </form>
+
+        <div class="result-wrapper">
+            <div class="title-line">
+                <h3>Результат</h3>
+
+                <div class="symbol">
+                    <p>2500 символов</p>
+                    <a href="#"><img src="img/copy.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="box-result__search"></div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
